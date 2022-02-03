@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  box-shadow: 6px 6px 6px #dbd9d9;
+  position: relative;
+  z-index: 1;
+}
+header .container {
+  max-width: 1190px;
+  margin: auto;
+  padding: 21px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .logo-part {
+  display: flex;
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+}
+header .container .logo-part .logo-part__text {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #505050;
+  width: 270px;
+  margin-left: 10px;
+}
+header .container .menu-part .menu-part__upper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0px 10px 0px;
+}
+header .container .menu-part .menu-part__upper li {
+  margin-right: 23px;
+}
+header .container .menu-part .menu-part__upper li a {
+  color: #505050;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+header .container .menu-part .menu-part__upper li .small-size {
+  padding-right: 15px;
+  font-size: 11px;
+  font-weight: bold;
+}
+header .container .menu-part .menu-part__upper li .medium-size {
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+header .container .menu-part .menu-part__upper li .large-size {
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+header .container .menu-part .menu-part__upper .dot-color-list {
+  display: flex;
+}
+header .container .menu-part .menu-part__upper .dot-color-list .dot-color {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+header .container .menu-part .menu-part__upper .dot-color-list .blue-dot {
+  background-color: #265781;
+  margin-right: 7px;
+}
+header .container .menu-part .menu-part__upper .dot-color-list .green-dot {
+  background-color: #52B27B;
+  margin-right: 7px;
+}
+header .container .menu-part .menu-part__upper .dot-color-list .yellow-dot {
+  background-color: #F2E162;
+  margin-right: 7px;
+}
+header .container .menu-part .menu-part__upper li:last-child {
+  border-left: 1px solid #265781;
+  padding-left: 17px;
+}
+header .container .menu-part .menu-part__upper .upper-menu__border {
+  border-right: 1px solid #265781;
+  padding-right: 17px;
+}
+header .container .menu-part .menu-part__lower {
+  display: flex;
+  justify-content: flex-end;
+}
+header .container .menu-part .menu-part__lower li {
+  padding-right: 18px;
+  margin-right: 18px;
+  border-right: 1px solid #707070;
+}
+header .container .menu-part .menu-part__lower li a {
+  color: #505050;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+header .container .menu-part .menu-part__lower .last-border {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: none;
+}
+
+.hero-banner .hero-banner__icon {
+  width: 80px;
+  bottom: 50px;
+  left: 50%;
+}
+.hero-banner img {
+  width: 100%;
+  position: relative;
+}
+.hero-banner .hero-banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  bottom: 65px;
+  left: 85px;
+}
+.hero-banner .hero-banner__content .vidc {
+  background-color: #1B7642;
+  font-family: "Lato", sans-serif;
+  font-size: 57px;
+  font-weight: 900;
+  padding: 0 20px;
+  color: white;
+}
+.hero-banner .hero-banner__content .agricultural-irrigation {
+  background-color: #0F5C30;
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 35px;
+  padding: 12px 20px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.hero-banner .hero-banner__content .banner-btn {
+  background-color: #FFFFFF;
+  font-family: "Lato", sans-serif;
+  font-weight: 400px;
+  font-size: 22px;
+  padding: 10px 21px;
+  margin-top: 33px;
+}

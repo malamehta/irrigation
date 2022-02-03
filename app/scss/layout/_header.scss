@@ -1,0 +1,113 @@
+header{
+    box-shadow: 6px 6px 6px rgb(219, 217, 217);
+    position: relative;
+    z-index: 1;
+    .container{
+        max-width: 1190px;
+        margin: auto;
+        padding: 21px 0px;
+        display: flex;
+        justify-content: space-between;
+    
+       
+        .logo-part{
+            display: flex;
+            text-decoration: none;
+            padding: 15px 0px 15px 0px;
+            
+            
+            .logo-part__text{
+                font-size: 15px;
+                font-family: $font-lato;
+                font-weight: 700;
+                color: $logo-text;
+                width: 270px;
+                margin-left: 10px;
+            }
+        }
+        .menu-part{
+            .menu-part__upper{
+                display: flex;
+                justify-content: flex-end;
+                margin:10px 0px 10px 0px ;
+        
+                
+                li{
+                    margin-right: 23px;
+                    a{
+                        color: $menu-text-link-color;
+                        font-size: 14px;
+                        font-family: $font-lato;
+                    }
+                    .small-size{
+                        padding-right: 15px;
+                        font-size: 11px;
+                        font-weight: bold;
+                    }
+                    .medium-size{
+                        padding-right: 15px;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                    .large-size{
+                        padding-right: 15px;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                    
+                    
+                }.dot-color-list{
+                    display: flex;
+                    .dot-color{
+                        height: 15px;
+                        width: 15px;
+                        border-radius: 50%;
+                     }
+                    .blue-dot{
+                        background-color: $blue-dot;
+                        margin-right: 7px;
+                    }
+                    .green-dot{
+                        background-color: $green-dot;
+                        margin-right: 7px;
+                    }
+                    .yellow-dot{
+                        background-color: $yellow-dot;
+                        margin-right: 7px;
+                    }
+                }
+                li:last-child{
+                    border-left: 1px solid $upper-menu-border;
+                    padding-left: 17px;
+                }
+                .upper-menu__border{
+                    border-right: 1px solid $upper-menu-border;
+                    padding-right: 17px;
+                }
+                
+            }
+            .menu-part__lower{
+                display: flex;
+                justify-content: flex-end;
+                
+                
+                li{
+                    padding-right: 18px;
+                    margin-right: 18px;
+                    border-right: 1px solid $lower-menu-border;
+                    a{
+                        color: $menu-text-link-color;
+                        font-size: 14px;
+                        font-family: $font-lato;
+                    }
+                    
+                }.last-border{
+                    padding-right: 0;
+                    margin-right: 0;
+                    border-right: none;
+                }
+            }
+           
+        }
+    }
+}
