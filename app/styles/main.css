@@ -150,3 +150,30 @@ header .container .menu-part .menu-part__lower .last-border {
   margin-top: 33px;
   color: #272727;
 }
+
+.manage-develop {
+  display: flex;
+  justify-content: center;
+}
+.manage-develop .manage-develop__text-part .manage-develop__text-part-upper {
+  font-size: 43px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #505050;
+  padding-left: 111px;
+}
+.manage-develop .manage-develop__text-part .manage-develop__text-part-lower {
+  font-size: 43px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  color: #505050;
+  text-align: end;
+}
+.manage-develop .manage-develop__text-part .manage-develop__text-part-middle {
+  padding-right: 134px;
+  margin: 12px 0px;
+}
+.manage-develop .manage-develop__logo-part img {
+  position: absolute;
+  right: 100px;
+}
