@@ -1,0 +1,28 @@
+.services{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-image: linear-gradient(white,rgb(252, 250, 250),rgb(228, 226, 226));
+    .services__content{
+        width: 106px;
+        margin-right: 20px;
+        margin-left: 75px;
+        .services__content-text{
+            text-align: center;
+            margin-top: 20px;
+            a{
+                color: #505050;
+                font-family: lato;
+            }
+        }
+        .services__content-img{
+            margin-left: 15px;
+            
+        }
+        .agriculture-development{
+            padding-left: 10px;
+        }
+    }.sprinkle-irrigation{
+        margin-top: 10px;
+    }
+}

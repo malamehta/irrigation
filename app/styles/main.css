@@ -177,3 +177,32 @@ header .container .menu-part .menu-part__lower .last-border {
   position: absolute;
   right: 100px;
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background-image: linear-gradient(white, #fcfafa, #e4e2e2);
+}
+.services .services__content {
+  width: 106px;
+  margin-right: 20px;
+  margin-left: 75px;
+}
+.services .services__content .services__content-text {
+  text-align: center;
+  margin-top: 20px;
+}
+.services .services__content .services__content-text a {
+  color: #505050;
+  font-family: lato;
+}
+.services .services__content .services__content-img {
+  margin-left: 15px;
+}
+.services .services__content .agriculture-development {
+  padding-left: 10px;
+}
+.services .sprinkle-irrigation {
+  margin-top: 10px;
+}
