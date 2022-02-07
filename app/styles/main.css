@@ -82,6 +82,7 @@ header .container .menu-part .menu-part__upper .dot-color-list .yellow-dot {
 header .container .menu-part .menu-part__upper li:last-child {
   border-left: 1px solid #265781;
   padding-left: 17px;
+  margin-right: 0px;
 }
 header .container .menu-part .menu-part__upper .upper-menu__border {
   border-right: 1px solid #265781;
