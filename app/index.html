@@ -17,15 +17,15 @@
     <header class="header">
         <nav class="nav-bar container">
             <!-- --------------------------start-logo-part-------------------------- -->
-            <a href="#" class="logo-part">
+            <a href="#" class="navbar-logo">
                 <img src="images/nav-logo.svg">
-                <span class="logo-part__text">VIDARBHA IRRIGATION DEVELOPMENT CORPORATION</span>
+                <span class="navbar-logo__text">VIDARBHA IRRIGATION DEVELOPMENT CORPORATION</span>
             </a>
             <!-- -------------------------end of logo part--------------------------------------- -->
             <!-- -------------------------------start of menu part--------------------------------------- -->
-            <div class="menu-part">
+            <div class="navbar-menu">
                 <!-- -------------------upper menu----------------------- -->
-                <ul class="menu-part__upper">
+                <ul class="navbar-menu__upper">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Tenders</a></li>
                     <li><a href="#">Knowledge Center</a></li>
@@ -34,7 +34,12 @@
                         <a href="#" class="medium-size"> A</a>
                         <a href="#" class="large-size"> A+</a>
                     </li>
-                    <li class="upper-menu__border"><a href="#">EN</a></li>
+                    <li class="upper-menu__border">
+                        <select class="select-language">
+                            <option value="EN">EN</option>
+                            <option>Hindi</option>
+                        </select>
+                    </li>
                     <li class="dot-color-list">
                         <a href="#" class="dot-color blue-dot"></a>
                         <a href="#" class="dot-color green-dot"></a>
@@ -43,7 +48,7 @@
                     <li><a href="#"><img src="images/search.svg"></a></li>
                 </ul>
                 <!-- -------------------lower-menu---------------------------- -->
-                <ul class="menu-part__lower">
+                <ul class="navbar-menu__lower">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Annual Reports</a></li>
                     <li><a href="#">Circulars</a></li>
@@ -58,58 +63,74 @@
 
     </header>
     <!-- ----------------------------------end of header part-------------------------------------------- -->
-    <main>
+     <main>
     <section class="hero-banner">
-        <img src="images/hero-banner.png">
-        <div class="hero-banner__content">
-            <h2 class="vidc">VIDC</h2>
-            <h3 class="agricultural-irrigation">AGRICULTURAL IRRIGATION</h3>
+        <img src="images/hero-banner.png" class="hero-banner__img">
+        <div class="hero-banner-container">
+            <h2 class="title">VIDC</h2>
+            <h3 class="sub-title">AGRICULTURAL IRRIGATION</h3>
             <a href="#" class="banner-btn">KNOW MORE</a>
+            <a href="#"><img src="images/banner-icon.svg" class="hero-banner__icon"></a>
+            
         </div>
-        <a href="#"><img src="images/banner-icon.svg" class="hero-banner__icon"></a>
+       
+       
     </section>
     <!-- -----------------------------end of hero-banner------------------------------------------------- -->
     <!-- ---------------------start of manage and develop section------------------------------------ -->
-    <section class="manage-develop">
-        <div class="manage-develop__text-part">
-            <h3 class="manage-develop__text-part-upper">MANAGE & DEVELOP</h3>
-            <img src="images/text-irrigation.png" class="manage-develop__text-part-middle">
-            <h3 class="manage-develop__text-part-lower">IN VIDARBHA, MAHARASHTRA</h3>
+    <section class="manage-develop manageDevelop-container">
+        <div class="manage-develop__text">
+            <h3 class="manage-develop__text-upper">MANAGE & DEVELOP</h3>
+            <img src="images/text-irrigation.png" class="manage-develop__text-middle">
+            <h3 class="manage-develop__text-lower">IN VIDARBHA, MAHARASHTRA</h3>
         </div>
-        <div class="manage-develop__logo-part">
-            <a href="#"><img src="images/vidc-logo.png"></a>
+        <div class="manage-develop__logo">
+            <img src="images/vidc-logo.png" class="manage-develop__logo-img">
         </div>
     </section>
     <!-- -----------------------------------end of manage and develop section-------------------------- -->
     <!-- ------------------------------- start of services section-------------------------------------------------- -->
-    <section class="services">
+    <section class="services ">
+        <div class="services__container">
         <div class="services__content">
-            <a href="#"><img src="images/hydro-irrigation.svg" class="services__content-img"></a>
-            <h3 class="services__content-text"><a href="#">HYDRO IRRIGATION</a></h3>
+            <a href="#">
+                <img src="images/hydro-irrigation.svg" class="services__content-img">
+                <span class="services__content-text">HYDRO IRRIGATION</span>
+            </a>
         </div>
 
         <div class="services__content">
-            <a href="#"><img src="images/hydro-electricity.svg" class="services__content-img"></a>
-            <h3 class="services__content-text"><a href="#">HYDRO ELECTRICITY</a></h3>
+            <a href="#">
+                <img src="images/hydro-electricity.svg" class="services__content-img">
+                <span class="services__content-text">HYDRO ELECTRICITY</h3>
+            </a>        
         </div>
         <div class="services__content">
-            <a href="#"><img src="images/agriculture-development.svg"
-                    class="services__content-img agriculture-development"></a>
-            <h3 class="services__content-text"><a href="#">AGRICULTURAL DEVELOPMENT</a></h3>
+            <a href="#">
+                <img src="images/agriculture-development.svg"
+                class="services__content-img agriculture-development">
+                <span class="services__content-text">AGRICULTURAL DEVELOPMENT</span>
+            </a>        
+
         </div>
 
         <div class="services__content">
-            <a href="#"><img src="images/crop-irrigation.svg" class="services__content-img"></a>
-            <h3 class="services__content-text"><a href="#">CROP IRRIGATION</a></h3>
+            <a href="#">
+                <img src="images/crop-irrigation.svg" class="services__content-img">
+                 <span class="services__content-text">CROP IRRIGATION</span>
+            </a>    
         </div>
         <div class="services__content sprinkle-irrigation">
-            <a href="#"><img src="images/sprinkle-irrigation.svg" class="services__content-img"></a>
-            <h3 class="services__content-text"><a href="#">SPRINKLE IRRIGATION</a></h3>
+            <a href="#">
+                <img src="images/sprinkle-irrigation.svg" class="services__content-img">
+                <span class="services__content-text">SPRINKLE IRRIGATION</span>
+            </a>   
         </div>
+    </div>
 
     </section>
     <!-- ---------------------------------------end of services section---------------------------------- -->
-</main>
+</main> 
 </body>
 
 

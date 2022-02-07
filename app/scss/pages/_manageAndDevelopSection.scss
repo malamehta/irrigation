@@ -1,0 +1,35 @@
+.manageDevelop-container{
+    max-width: 1125px;
+    margin:140px auto 0 auto ;
+    
+}
+.manage-develop{
+    display: flex;
+    padding-left: 59px;
+    &__text{
+        &-upper{
+            font-size: 43px;
+            font-weight:900 ;
+            font-family: $font-lato;
+            color: $manage-develop-text-color;
+            padding-left: 111px;
+        }
+        &-lower{
+            font-size: 43px;
+            font-weight:900 ;
+            font-family: $font-lato;
+            color: $manage-develop-text-color;
+            padding-left: 236px;
+
+        }
+        &-middle{
+            margin: 12px 0px;
+        }
+    
+    }
+    &__logo{
+        position: relative;
+        right: 50px;
+    }
+
+}

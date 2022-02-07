@@ -1,22 +1,21 @@
 .hero-banner{
-    .hero-banner__icon{
-        width: 80px;
-        bottom: 50px;
-        left: 50%;
-        
-    }
-    img{
+    &__img{
         width: 100%;
-        position: relative;
     }
-    .hero-banner__content{
+    &-container{
+        max-width: 1125px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         position: absolute;
+        left: 0;
+        right: 0;
         bottom: 65px;
-        left: 85px;
-        .vidc{
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+        
+        .title{
             background-color: $vidc-bg-color;
             font-family: $font-lato;
             font-size: 57px;
@@ -24,7 +23,7 @@
             padding: 0 20px;
             color: $banner-text-content-color;
         }
-        .agricultural-irrigation{
+        .sub-title{
             background-color: $agr-irri-bg-color;
             font-family: $font-lato;
             color: $banner-text-content-color;
@@ -43,6 +42,15 @@
             color: $banner-btn-text-color;
 
         }
+    }
+    &__icon{
+        width: 80px;
+        height: 78px;
+        position: absolute;
+        left: 50%;
+        bottom: -63px;
+
+
     }
   
 }

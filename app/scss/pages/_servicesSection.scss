@@ -1,0 +1,26 @@
+
+.services{
+    background-image: linear-gradient(white,white,rgb(230, 221, 221));
+    
+    &__container{
+        max-width: 1125px;
+        margin: 0 auto;
+        padding:113px 0px 121px 0px ;
+        display: flex;
+        
+    }
+    
+    &__content{
+        width: 125px;
+        text-align: center;
+        margin-left: 90px;
+        &-text{
+            display: block;
+            margin-top: 15px;
+            font-family: $font-lato;
+            font-weight: 900;
+            font-size: 16px;
+            color: $services-text-color;
+        }
+    }
+}

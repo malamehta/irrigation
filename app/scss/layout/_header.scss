@@ -1,22 +1,23 @@
 header{
-    box-shadow: 6px 6px 6px rgb(219, 217, 217);
+    box-shadow: 0px 3px 6px #dbd9d9;
     position: relative;
     z-index: 1;
     .container{
-        max-width: 1190px;
+        max-width: 1125px;
         margin: auto;
-        padding: 21px 0px;
+        padding: 21px 15px;
         display: flex;
         justify-content: space-between;
     
        
-        .logo-part{
+        .navbar-logo{
             display: flex;
             text-decoration: none;
-            padding: 15px 0px 15px 0px;
+            align-items: center;
+            // padding: 15px 0px 15px 0px;
             
             
-            .logo-part__text{
+            &__text{
                 font-size: 15px;
                 font-family: $font-lato;
                 font-weight: 700;
@@ -25,11 +26,11 @@ header{
                 margin-left: 10px;
             }
         }
-        .menu-part{
-            .menu-part__upper{
+        .navbar-menu{
+            &__upper{
                 display: flex;
                 justify-content: flex-end;
-                margin:10px 0px 10px 0px ;
+                margin:0px 0px 10px 0px ;
         
                 
                 li{
@@ -56,7 +57,10 @@ header{
                     }
                     
                     
-                }.dot-color-list{
+                }.select-language{
+                    border: none;
+                }
+                .dot-color-list{
                     display: flex;
                     .dot-color{
                         height: 15px;
@@ -87,7 +91,7 @@ header{
                 }
                 
             }
-            .menu-part__lower{
+            &__lower{
                 display: flex;
                 justify-content: flex-end;
                 

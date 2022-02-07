@@ -7,23 +7,23 @@
 }
 
 header {
-  box-shadow: 6px 6px 6px #dbd9d9;
+  box-shadow: 0px 3px 6px #dbd9d9;
   position: relative;
   z-index: 1;
 }
 header .container {
-  max-width: 1190px;
+  max-width: 1125px;
   margin: auto;
-  padding: 21px 0px;
+  padding: 21px 15px;
   display: flex;
   justify-content: space-between;
 }
-header .container .logo-part {
+header .container .navbar-logo {
   display: flex;
   text-decoration: none;
-  padding: 15px 0px 15px 0px;
+  align-items: center;
 }
-header .container .logo-part .logo-part__text {
+header .container .navbar-logo__text {
   font-size: 15px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -31,101 +31,103 @@ header .container .logo-part .logo-part__text {
   width: 270px;
   margin-left: 10px;
 }
-header .container .menu-part .menu-part__upper {
+header .container .navbar-menu__upper {
   display: flex;
   justify-content: flex-end;
-  margin: 10px 0px 10px 0px;
+  margin: 0px 0px 10px 0px;
 }
-header .container .menu-part .menu-part__upper li {
+header .container .navbar-menu__upper li {
   margin-right: 23px;
 }
-header .container .menu-part .menu-part__upper li a {
+header .container .navbar-menu__upper li a {
   color: #505050;
   font-size: 14px;
   font-family: "Lato", sans-serif;
 }
-header .container .menu-part .menu-part__upper li .small-size {
+header .container .navbar-menu__upper li .small-size {
   padding-right: 15px;
   font-size: 11px;
   font-weight: bold;
 }
-header .container .menu-part .menu-part__upper li .medium-size {
+header .container .navbar-menu__upper li .medium-size {
   padding-right: 15px;
   font-size: 14px;
   font-weight: bold;
 }
-header .container .menu-part .menu-part__upper li .large-size {
+header .container .navbar-menu__upper li .large-size {
   padding-right: 15px;
   font-size: 16px;
   font-weight: bold;
 }
-header .container .menu-part .menu-part__upper .dot-color-list {
+header .container .navbar-menu__upper .select-language {
+  border: none;
+}
+header .container .navbar-menu__upper .dot-color-list {
   display: flex;
 }
-header .container .menu-part .menu-part__upper .dot-color-list .dot-color {
+header .container .navbar-menu__upper .dot-color-list .dot-color {
   height: 15px;
   width: 15px;
   border-radius: 50%;
 }
-header .container .menu-part .menu-part__upper .dot-color-list .blue-dot {
+header .container .navbar-menu__upper .dot-color-list .blue-dot {
   background-color: #265781;
   margin-right: 7px;
 }
-header .container .menu-part .menu-part__upper .dot-color-list .green-dot {
+header .container .navbar-menu__upper .dot-color-list .green-dot {
   background-color: #52B27B;
   margin-right: 7px;
 }
-header .container .menu-part .menu-part__upper .dot-color-list .yellow-dot {
+header .container .navbar-menu__upper .dot-color-list .yellow-dot {
   background-color: #F2E162;
   margin-right: 7px;
 }
-header .container .menu-part .menu-part__upper li:last-child {
+header .container .navbar-menu__upper li:last-child {
   border-left: 1px solid #265781;
   padding-left: 17px;
   margin-right: 0px;
 }
-header .container .menu-part .menu-part__upper .upper-menu__border {
+header .container .navbar-menu__upper .upper-menu__border {
   border-right: 1px solid #265781;
   padding-right: 17px;
 }
-header .container .menu-part .menu-part__lower {
+header .container .navbar-menu__lower {
   display: flex;
   justify-content: flex-end;
 }
-header .container .menu-part .menu-part__lower li {
+header .container .navbar-menu__lower li {
   padding-right: 18px;
   margin-right: 18px;
   border-right: 1px solid #707070;
 }
-header .container .menu-part .menu-part__lower li a {
+header .container .navbar-menu__lower li a {
   color: #505050;
   font-size: 14px;
   font-family: "Lato", sans-serif;
 }
-header .container .menu-part .menu-part__lower .last-border {
+header .container .navbar-menu__lower .last-border {
   padding-right: 0;
   margin-right: 0;
   border-right: none;
 }
 
-.hero-banner .hero-banner__icon {
-  width: 80px;
-  bottom: 50px;
-  left: 50%;
-}
-.hero-banner img {
+.hero-banner__img {
   width: 100%;
-  position: relative;
 }
-.hero-banner .hero-banner__content {
+.hero-banner-container {
+  max-width: 1125px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
+  left: 0;
+  right: 0;
   bottom: 65px;
-  left: 85px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
-.hero-banner .hero-banner__content .vidc {
+.hero-banner-container .title {
   background-color: #1B7642;
   font-family: "Lato", sans-serif;
   font-size: 57px;
@@ -133,7 +135,7 @@ header .container .menu-part .menu-part__lower .last-border {
   padding: 0 20px;
   color: white;
 }
-.hero-banner .hero-banner__content .agricultural-irrigation {
+.hero-banner-container .sub-title {
   background-color: #0F5C30;
   font-family: "Lato", sans-serif;
   color: white;
@@ -142,7 +144,7 @@ header .container .menu-part .menu-part__lower .last-border {
   font-weight: 900;
   margin-top: 5px;
 }
-.hero-banner .hero-banner__content .banner-btn {
+.hero-banner-container .banner-btn {
   background-color: #FFFFFF;
   font-family: "Lato", sans-serif;
   font-weight: 400px;
@@ -151,59 +153,64 @@ header .container .menu-part .menu-part__lower .last-border {
   margin-top: 33px;
   color: #272727;
 }
+.hero-banner__icon {
+  width: 80px;
+  height: 78px;
+  position: absolute;
+  left: 50%;
+  bottom: -63px;
+}
+
+.manageDevelop-container {
+  max-width: 1125px;
+  margin: 140px auto 0 auto;
+}
 
 .manage-develop {
   display: flex;
-  justify-content: center;
+  padding-left: 59px;
 }
-.manage-develop .manage-develop__text-part .manage-develop__text-part-upper {
+.manage-develop__text-upper {
   font-size: 43px;
+  font-weight: 900;
   font-family: "Lato", sans-serif;
-  font-weight: bold;
   color: #505050;
   padding-left: 111px;
 }
-.manage-develop .manage-develop__text-part .manage-develop__text-part-lower {
+.manage-develop__text-lower {
   font-size: 43px;
+  font-weight: 900;
   font-family: "Lato", sans-serif;
-  font-weight: bold;
   color: #505050;
-  text-align: end;
+  padding-left: 236px;
 }
-.manage-develop .manage-develop__text-part .manage-develop__text-part-middle {
-  padding-right: 134px;
+.manage-develop__text-middle {
   margin: 12px 0px;
 }
-.manage-develop .manage-develop__logo-part img {
-  position: absolute;
-  right: 100px;
+.manage-develop__logo {
+  position: relative;
+  right: 50px;
 }
 
 .services {
+  background-image: linear-gradient(white, white, #e6dddd);
+}
+.services__container {
+  max-width: 1125px;
+  margin: 0 auto;
+  padding: 113px 0px 121px 0px;
   display: flex;
-  justify-content: center;
-  padding: 100px 0;
-  background-image: linear-gradient(white, #fcfafa, #e4e2e2);
 }
-.services .services__content {
-  width: 106px;
-  margin-right: 20px;
-  margin-left: 75px;
-}
-.services .services__content .services__content-text {
+.services__content {
+  width: 125px;
   text-align: center;
-  margin-top: 20px;
+  margin-left: 90px;
 }
-.services .services__content .services__content-text a {
+.services__content-text {
+  display: block;
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
   color: #505050;
-  font-family: lato;
-}
-.services .services__content .services__content-img {
-  margin-left: 15px;
-}
-.services .services__content .agriculture-development {
-  padding-left: 10px;
-}
-.services .sprinkle-irrigation {
-  margin-top: 10px;
 }
