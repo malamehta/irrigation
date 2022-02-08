@@ -23,13 +23,13 @@
 
         }
         &-middle{
-            margin: 12px 0px;
+            margin: 10px 0px;
         }
     
     }
     &__logo{
-        position: relative;
-        right: 50px;
+        position: absolute;
+        left: 74%;
     }
 
 }

@@ -111,6 +111,60 @@ header .container .navbar-menu__lower .last-border {
   border-right: none;
 }
 
+.manageDevelop-container {
+  max-width: 1125px;
+  margin: 140px auto 0 auto;
+}
+
+.manage-develop {
+  display: flex;
+  padding-left: 59px;
+}
+.manage-develop__text-upper {
+  font-size: 43px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: #505050;
+  padding-left: 111px;
+}
+.manage-develop__text-lower {
+  font-size: 43px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: #505050;
+  padding-left: 236px;
+}
+.manage-develop__text-middle {
+  margin: 10px 0px;
+}
+.manage-develop__logo {
+  position: absolute;
+  left: 74%;
+}
+
+.services {
+  background-image: linear-gradient(white, white, #e6dddd);
+}
+.services__container {
+  max-width: 1125px;
+  margin: 0 auto;
+  padding: 113px 0px 121px 0px;
+  display: flex;
+}
+.services__content {
+  width: 125px;
+  text-align: center;
+  margin-left: 90px;
+}
+.services__content-text {
+  display: block;
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: #505050;
+}
+
 .hero-banner__img {
   width: 100%;
 }
@@ -159,58 +213,4 @@ header .container .navbar-menu__lower .last-border {
   position: absolute;
   left: 50%;
   bottom: -63px;
-}
-
-.manageDevelop-container {
-  max-width: 1125px;
-  margin: 140px auto 0 auto;
-}
-
-.manage-develop {
-  display: flex;
-  padding-left: 59px;
-}
-.manage-develop__text-upper {
-  font-size: 43px;
-  font-weight: 900;
-  font-family: "Lato", sans-serif;
-  color: #505050;
-  padding-left: 111px;
-}
-.manage-develop__text-lower {
-  font-size: 43px;
-  font-weight: 900;
-  font-family: "Lato", sans-serif;
-  color: #505050;
-  padding-left: 236px;
-}
-.manage-develop__text-middle {
-  margin: 12px 0px;
-}
-.manage-develop__logo {
-  position: relative;
-  right: 50px;
-}
-
-.services {
-  background-image: linear-gradient(white, white, #e6dddd);
-}
-.services__container {
-  max-width: 1125px;
-  margin: 0 auto;
-  padding: 113px 0px 121px 0px;
-  display: flex;
-}
-.services__content {
-  width: 125px;
-  text-align: center;
-  margin-left: 90px;
-}
-.services__content-text {
-  display: block;
-  margin-top: 15px;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-size: 16px;
-  color: #505050;
 }
