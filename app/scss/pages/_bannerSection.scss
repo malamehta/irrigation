@@ -15,7 +15,7 @@
         padding: 0 15px;
         margin: 0 auto;
         
-        .title{
+        &__title{
             background-color: $vidc-bg-color;
             font-family: $font-lato;
             font-size: 57px;
@@ -23,7 +23,7 @@
             padding: 0 20px;
             color: $banner-text-content-color;
         }
-        .sub-title{
+        &__sub-title{
             background-color: $agr-irri-bg-color;
             font-family: $font-lato;
             color: $banner-text-content-color;
@@ -32,7 +32,7 @@
             font-weight: 900;
             margin-top: 5px;
         }
-        .banner-btn{
+        &__btn{
             background-color: $banner-btn-bg-color;
             font-family: $font-lato;
             font-weight: 400px;

@@ -181,7 +181,7 @@ header .container .navbar-menu__lower .last-border {
   padding: 0 15px;
   margin: 0 auto;
 }
-.hero-banner-container .title {
+.hero-banner-container__title {
   background-color: #1B7642;
   font-family: "Lato", sans-serif;
   font-size: 57px;
@@ -189,7 +189,7 @@ header .container .navbar-menu__lower .last-border {
   padding: 0 20px;
   color: white;
 }
-.hero-banner-container .sub-title {
+.hero-banner-container__sub-title {
   background-color: #0F5C30;
   font-family: "Lato", sans-serif;
   color: white;
@@ -198,7 +198,7 @@ header .container .navbar-menu__lower .last-border {
   font-weight: 900;
   margin-top: 5px;
 }
-.hero-banner-container .banner-btn {
+.hero-banner-container__btn {
   background-color: #FFFFFF;
   font-family: "Lato", sans-serif;
   font-weight: 400px;
