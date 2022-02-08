@@ -132,7 +132,7 @@ header .container .navbar-menu__lower .last-border {
   font-weight: 900;
   font-family: "Lato", sans-serif;
   color: #505050;
-  padding-left: 236px;
+  padding-left: 245px;
 }
 .manage-develop__text-middle {
   text-transform: uppercase;
@@ -149,7 +149,7 @@ header .container .navbar-menu__lower .last-border {
 }
 .manage-develop__logo {
   position: absolute;
-  left: 74%;
+  left: 76%;
 }
 
 .services {
