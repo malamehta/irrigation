@@ -1,0 +1,131 @@
+.hero-banner{
+    position: relative;
+    &__img{
+        width: 100%;
+    }
+    &__content{
+        // max-width: 1125px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 65px;
+        width: 100%;
+        padding: 0 15px;
+        // margin: 0 auto;
+        
+        &-title{
+            background-color: $green-color;
+            font-family:$primary-font;
+            font-size: 57px;
+            font-weight: 900;
+            padding: 0 20px;
+            color: $white;
+        }
+        &-subtitle{
+            background-color: $dark-green-color;
+            font-family:$primary-font;
+            color: $white;
+            font-size: 35px;
+            padding: 12px 20px;
+            font-weight: 900;
+            margin-top: 5px;
+        }
+        &-btn{
+            background-color: $white;
+            font-family:$primary-font;
+            font-weight: 400px;
+            font-size: 22px;
+            padding: 10px 21px;
+            margin-top: 33px;
+            color: $light-black-color;
+
+        }
+    }
+    &__icon{
+        width: 80px;
+        height: 78px;
+        position: absolute;
+        left: 50%;
+        bottom:-6%;
+        
+
+
+    }
+  
+}
+// -------------------------------end banner section-------------------------------
+.manage-develop{
+    display: flex;
+    padding-left: 60px;
+    margin-top: 133px;
+    &__text{
+        &-upper{
+            font-size: 43px;
+            font-weight:900 ;
+            font-family:$primary-font;
+            color: $dark-grey-color;
+            padding-left: 118px;
+        }
+        &-lower{
+            font-size: 43px;
+            font-weight:900 ;
+            font-family: $primary-font;
+            color: $dark-grey-color;
+            padding-left: 240px;
+
+        }
+        &-middle{
+            text-transform: uppercase;
+            font-size: 120px;
+            line-height: 90px;
+            font-weight: 900;
+            letter-spacing: -6px;
+            margin: 10px 0;
+            font-family: sans-serif;
+            background-image: url(../../images/hero-banner.png);
+            background-size: cover;
+            background-position: center;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+                }
+    
+    }
+    &__logo{
+        position: absolute;
+        left: 74%;
+    }
+
+}
+// -----------------------------end manage and develop section------------------------------
+
+.services{
+    background-image: linear-gradient(white,rgb(247, 252, 246),rgb(230, 221, 221));
+    
+    &__content{
+        padding:119px 0px 121px 130px ;
+        
+        display: flex;
+        &-subcontent{
+            width: 120px;
+            text-align: center;
+            margin-right: 70px;
+        }
+        &-text{
+            display: block;
+            margin-top: 15px;
+            font-family: $primary-font;
+            font-weight: 900;
+            font-size: 16px;
+            color: $dark-grey-color;
+
+
+        }
+        
+    }
+    
+    
+}
+// ---------------------------------end of services section----------------------------------

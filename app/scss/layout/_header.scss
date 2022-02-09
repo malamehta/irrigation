@@ -19,9 +19,9 @@ header{
             
             &__text{
                 font-size: 15px;
-                font-family: $font-lato;
+                font-family: $primary-font;
                 font-weight: 700;
-                color: $logo-text;
+                color: $dark-grey-color;
                 width: 270px;
                 margin-left: 10px;
             }
@@ -36,9 +36,9 @@ header{
                 li{
                     margin-right: 23px;
                     a{
-                        color: $menu-text-link-color;
+                        color: $dark-grey-color;
                         font-size: 14px;
-                        font-family: $font-lato;
+                        font-family:$primary-font;
                     }
                     .small-size{
                         padding-right: 15px;
@@ -68,25 +68,25 @@ header{
                         border-radius: 50%;
                      }
                     .blue-dot{
-                        background-color: $blue-dot;
+                        background-color: $dark-blue-color;
                         margin-right: 7px;
                     }
                     .green-dot{
-                        background-color: $green-dot;
+                        background-color: $light-green-color;
                         margin-right: 7px;
                     }
                     .yellow-dot{
-                        background-color: $yellow-dot;
+                        background-color: $light-yellow-color;
                         margin-right: 7px;
                     }
                 }
                 li:last-child{
-                    border-left: 1px solid $upper-menu-border;
+                    border-left: 1px solid $light-blue-color;
                     padding-left: 17px;
                     margin-right: 0px;
                 }
                 .upper-menu__border{
-                    border-right: 1px solid $upper-menu-border;
+                    border-right: 1px solid $light-blue-color;
                     padding-right: 17px;
                 }
                 
@@ -99,11 +99,11 @@ header{
                 li{
                     padding-right: 18px;
                     margin-right: 18px;
-                    border-right: 1px solid $lower-menu-border;
+                    border-right: 1px solid $light-grey-color;
                     a{
-                        color: $menu-text-link-color;
+                        color: $dark-grey-color;
                         font-size: 14px;
-                        font-family: $font-lato;
+                        font-family: $primary-font;
                     }
                     
                 }.last-border{
