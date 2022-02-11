@@ -58,6 +58,7 @@
 }
 // -------------------------------end banner section-------------------------------
 .manage-develop{
+    position: relative;
     display: flex;
     padding-left: 60px;
     margin-top: 133px;
@@ -85,7 +86,7 @@
             letter-spacing: -6px;
             margin: 10px 0;
             font-family: sans-serif;
-            background-image: url({$image-path}/images/hero-banner.png);
+            background-image: url(../../images/hero-banner.png);
             background-size: cover;
             background-position: center;
             -webkit-background-clip: text;
@@ -95,7 +96,7 @@
     }
     &__logo{
         position: absolute;
-        left: 74%;
+        left: 79%;
     }
 
 }
@@ -103,15 +104,18 @@
 
 .services{
     background-image: linear-gradient(white,rgb(247, 252, 246),rgb(230, 221, 221));
+    position: relative;
     
     &__content{
         padding:119px 0px 121px 130px ;
-        
         display: flex;
         &-subcontent{
             width: 120px;
             text-align: center;
             margin-right: 70px;
+        }
+        &-img{
+            height: 75px;
         }
         &-text{
             display: block;

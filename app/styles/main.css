@@ -9,6 +9,7 @@
 .container {
   max-width: 1125px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 header {
@@ -16,19 +17,17 @@ header {
   position: relative;
   z-index: 1;
 }
-header .container {
-  max-width: 1125px;
-  margin: auto;
+header .nav-bar {
   padding: 21px 15px;
   display: flex;
   justify-content: space-between;
 }
-header .container .navbar-logo {
+header .nav-bar .navbar-logo {
   display: flex;
   text-decoration: none;
   align-items: center;
 }
-header .container .navbar-logo__text {
+header .nav-bar .navbar-logo__text {
   font-size: 15px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -36,81 +35,81 @@ header .container .navbar-logo__text {
   width: 270px;
   margin-left: 10px;
 }
-header .container .navbar-menu__upper {
+header .nav-bar .navbar-menu__upper {
   display: flex;
   justify-content: flex-end;
   margin: 0px 0px 10px 0px;
 }
-header .container .navbar-menu__upper li {
-  margin-right: 23px;
+header .nav-bar .navbar-menu__upper li {
+  margin-right: 15px;
 }
-header .container .navbar-menu__upper li a {
+header .nav-bar .navbar-menu__upper li a {
   color: #505050;
   font-size: 14px;
   font-family: "Lato", sans-serif;
 }
-header .container .navbar-menu__upper li .small-size {
+header .nav-bar .navbar-menu__upper li .small-size {
   padding-right: 15px;
   font-size: 11px;
   font-weight: bold;
 }
-header .container .navbar-menu__upper li .medium-size {
+header .nav-bar .navbar-menu__upper li .medium-size {
   padding-right: 15px;
   font-size: 14px;
   font-weight: bold;
 }
-header .container .navbar-menu__upper li .large-size {
-  padding-right: 15px;
+header .nav-bar .navbar-menu__upper li .large-size {
+  padding-right: 10px;
   font-size: 16px;
   font-weight: bold;
 }
-header .container .navbar-menu__upper .select-language {
+header .nav-bar .navbar-menu__upper .select-language {
   border: none;
 }
-header .container .navbar-menu__upper .dot-color-list {
+header .nav-bar .navbar-menu__upper .dot-color-list {
   display: flex;
 }
-header .container .navbar-menu__upper .dot-color-list .dot-color {
+header .nav-bar .navbar-menu__upper .dot-color-list .dot-color {
   height: 15px;
   width: 15px;
   border-radius: 50%;
 }
-header .container .navbar-menu__upper .dot-color-list .blue-dot {
+header .nav-bar .navbar-menu__upper .dot-color-list .blue-dot {
   background-color: #265781;
   margin-right: 7px;
 }
-header .container .navbar-menu__upper .dot-color-list .green-dot {
+header .nav-bar .navbar-menu__upper .dot-color-list .green-dot {
   background-color: #52B27B;
   margin-right: 7px;
 }
-header .container .navbar-menu__upper .dot-color-list .yellow-dot {
+header .nav-bar .navbar-menu__upper .dot-color-list .yellow-dot {
   background-color: #F2E162;
   margin-right: 7px;
 }
-header .container .navbar-menu__upper li:last-child {
+header .nav-bar .navbar-menu__upper li:last-child {
   border-left: 1px solid #265781;
   padding-left: 17px;
   margin-right: 0px;
 }
-header .container .navbar-menu__upper .upper-menu__border {
+header .nav-bar .navbar-menu__upper .upper-menu__border {
   border-right: 1px solid #265781;
   padding-right: 17px;
 }
-header .container .navbar-menu__lower {
+header .nav-bar .navbar-menu__lower {
   display: flex;
   justify-content: flex-end;
 }
-header .container .navbar-menu__lower li {
-  padding-right: 18px;
-  margin-right: 18px;
+header .nav-bar .navbar-menu__lower li {
+  padding-right: 15px;
+  margin-right: 15px;
   border-right: 1px solid #707070;
 }
-header .container .navbar-menu__lower li a {
+header .nav-bar .navbar-menu__lower li a {
   color: #505050;
   font-size: 14px;
   font-family: "Lato", sans-serif;
 }
-header .container .navbar-menu__lower .last-border {
+header .nav-bar .navbar-menu__lower .last-border {
   padding-right: 0;
   margin-right: 0;
   border-right: none;
@@ -168,6 +167,7 @@ header .container .navbar-menu__lower .last-border {
 }
 
 .manage-develop {
+  position: relative;
   display: flex;
   padding-left: 60px;
   margin-top: 133px;
@@ -184,7 +184,7 @@ header .container .navbar-menu__lower .last-border {
   font-weight: 900;
   font-family: "Lato", sans-serif;
   color: #505050;
-  padding-left: 235px;
+  padding-left: 240px;
 }
 .manage-develop__text-middle {
   text-transform: uppercase;
@@ -202,11 +202,12 @@ header .container .navbar-menu__lower .last-border {
 }
 .manage-develop__logo {
   position: absolute;
-  left: 74%;
+  left: 79%;
 }
 
 .services {
   background-image: linear-gradient(white, #f7fcf6, #e6dddd);
+  position: relative;
 }
 .services__content {
   padding: 119px 0px 121px 130px;
@@ -216,6 +217,9 @@ header .container .navbar-menu__lower .last-border {
   width: 120px;
   text-align: center;
   margin-right: 70px;
+}
+.services__content-img {
+  height: 75px;
 }
 .services__content-text {
   display: block;
