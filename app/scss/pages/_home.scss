@@ -133,3 +133,51 @@
     
 }
 // ---------------------------------end of services section----------------------------------
+.aboutus{
+    background-color:#3F3531;
+    height: 521px;
+    position: relative;
+    &-content{
+        &__nature-img{
+            position: absolute;
+            top:92px;
+        }
+        &__circle-img{
+            position: absolute;
+            top:233px;
+            left:350px;
+        }
+        &__icon-img{
+            position: absolute;
+            top: 255px;
+            left: 377px;
+         }
+        &__text{
+            width: 395px;
+            position: absolute;
+            right: 150px;
+            top: 92px;
+           &-title{
+               font-size: 36px;
+               font-family: $primary-font;
+               font-weight: 900;
+               color: $white;
+           }
+           &-para{
+               font-size: 16px;
+               font-family: $primary-font;
+               color: $white;
+               margin: 10px 0 30px 0;
+           }
+           &-btn{
+               font-size: 22px;
+               font-family: $primary-font;
+               color: $white;
+               background-color: #44AF72;
+               padding: 7px 15px ;
+           }
+        }
+    }
+}
+
+
