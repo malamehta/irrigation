@@ -103,7 +103,7 @@
 // -----------------------------end manage and develop section------------------------------
 
 .services{
-    background-image: linear-gradient(white,rgb(247, 252, 246),rgb(230, 221, 221));
+    background-image: linear-gradient(white,rgb(247, 252, 246),rgb(243, 236, 236));
     position: relative;
     
     &__content{
@@ -173,7 +173,7 @@
                font-size: 22px;
                font-family: $primary-font;
                color: $white;
-               background-color: #44AF72;
+               background-color:$lightest-green-color;
                padding: 7px 15px ;
            }
         }

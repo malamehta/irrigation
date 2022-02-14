@@ -206,7 +206,7 @@ header .nav-bar .navbar-menu__lower .last-border {
 }
 
 .services {
-  background-image: linear-gradient(white, #f7fcf6, #e6dddd);
+  background-image: linear-gradient(white, #f7fcf6, #f3ecec);
   position: relative;
 }
 .services__content {
