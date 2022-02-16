@@ -115,6 +115,103 @@ header .nav-bar .navbar-menu__lower .last-border {
   border-right: none;
 }
 
+.footer {
+  position: relative;
+  margin-top: 85px;
+}
+.footer-container {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+.footer-container__title {
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-bottom: 5px;
+}
+.footer-container__input {
+  width: 665px;
+  padding: 13px 0px 8px 13px;
+  border-radius: 50px;
+  opacity: 0.1;
+}
+.footer-container__btn {
+  padding: 9px 15px;
+  border-radius: 50px;
+  position: absolute;
+  left: 78%;
+}
+.footer-content {
+  display: flex;
+}
+.footer-content__links {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-content__links-aboutus {
+  color: white;
+  margin-right: 100px;
+}
+.footer-content__links-aboutus h2 {
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+.footer-content__links-aboutus li {
+  margin-bottom: 7px;
+}
+.footer-content__links-aboutus a {
+  font-size: 14px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.footer-content__links-important {
+  color: white;
+  margin-right: 100px;
+}
+.footer-content__links-important h2 {
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+.footer-content__links-important li {
+  margin-bottom: 7px;
+}
+.footer-content__links-important a {
+  font-size: 14px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.footer-content__links-more {
+  margin-right: 100px;
+  margin-top: 30px;
+}
+.footer-content__links-more li {
+  margin-bottom: 7px;
+}
+.footer-content__links-more a {
+  font-size: 14px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.footer-content__contact {
+  color: white;
+  width: 350px;
+  position: absolute;
+  right: -65%;
+  top: 5%;
+  background-color: aquamarine;
+}
+.footer-content__contact-detail {
+  display: flex;
+}
+.footer-content__contact-detail {
+  margin: 20px;
+}
+.footer-content__contact-detail__img {
+  padding-right: 20px;
+}
+
 .hero-banner {
   position: relative;
 }
@@ -206,17 +303,21 @@ header .nav-bar .navbar-menu__lower .last-border {
 }
 
 .services {
-  background-image: linear-gradient(white, #f7fcf6, #f3ecec);
+  background-image: linear-gradient(white, rgba(243, 236, 236, 0.6));
   position: relative;
 }
 .services__content {
-  padding: 119px 0px 121px 130px;
+  padding: 119px 0 121px 0;
   display: flex;
+  justify-content: center;
 }
-.services__content-subcontent {
+.services__content-links {
   width: 120px;
   text-align: center;
   margin-right: 70px;
+}
+.services__content-links:last-child {
+  margin-right: 0;
 }
 .services__content-img {
   height: 75px;
@@ -228,6 +329,7 @@ header .nav-bar .navbar-menu__lower .last-border {
   font-weight: 900;
   font-size: 16px;
   color: #505050;
+  text-transform: uppercase;
 }
 
 .aboutus {

@@ -86,6 +86,7 @@
             letter-spacing: -6px;
             margin: 10px 0;
             font-family: sans-serif;
+            // background-image: url(#{$image-path}/hero-banner.jpg);
             background-image: url(../../images/hero-banner.png);
             background-size: cover;
             background-position: center;
@@ -103,16 +104,20 @@
 // -----------------------------end manage and develop section------------------------------
 
 .services{
-    background-image: linear-gradient(white,rgb(247, 252, 246),rgb(243, 236, 236));
+    background-image: linear-gradient(white,rgba(243, 236, 236,0.6));
     position: relative;
     
     &__content{
-        padding:119px 0px 121px 130px ;
+        padding:119px 0 121px 0 ;
         display: flex;
-        &-subcontent{
+        justify-content: center;
+        &-links{
             width: 120px;
             text-align: center;
             margin-right: 70px;
+        }
+        &-links:last-child{
+            margin-right: 0;
         }
         &-img{
             height: 75px;
@@ -124,6 +129,7 @@
             font-weight: 900;
             font-size: 16px;
             color: $dark-grey-color;
+            text-transform: uppercase;
 
 
         }

@@ -1,0 +1,103 @@
+.footer{
+    position: relative;
+    // background-image: url(../../images/footer-bg.png);
+    margin-top: 85px;
+    &-container{
+        position: absolute;
+        top: 130px;
+        left: 90px;
+        &__title{
+            font-size: 22px;
+            font-weight: 900;
+            font-family: $primary-font;
+            color: white;
+            margin-bottom: 5px;
+        }
+        &__input{
+            width: 665px;
+            padding: 13px 0px 8px 13px;
+            border-radius: 50px;
+            opacity: 0.1;
+        }
+        &__btn{
+            padding: 9px 15px;
+            border-radius: 50px;
+            position: absolute;
+            left: 78%;
+        }
+    }
+    
+    &-content{
+        display: flex;
+        &__links{
+            display: flex;
+            margin-top: 20px;
+            &-aboutus{
+                color: white;
+                margin-right: 100px;
+                h2{
+                    font-size: 18px;
+                    margin-bottom: 13px;
+                }
+                li {
+                    margin-bottom: 7px;
+                }
+                a{
+                    font-size: 14px;
+                    color: white;
+                    font-family: $primary-font;
+                    
+                }
+            }
+            &-important{
+                color: white;
+                margin-right: 100px;
+                h2{
+                    font-size: 18px;
+                    margin-bottom: 13px;
+                }
+                li {
+                    margin-bottom: 7px;
+                }
+                a{
+                    font-size: 14px;
+                    color: white;
+                    font-family: $primary-font;
+                    
+                }
+
+            }
+            &-more{
+                margin-right: 100px;
+                margin-top: 30px;
+                li {
+                    margin-bottom: 7px;
+                }
+                a{
+                    font-size: 14px;
+                    color: white;
+                    font-family: $primary-font;
+                    
+                }
+            }
+        }
+     &__contact{
+         color: white;
+         width: 350px;
+         position: absolute;
+         right:-65%;
+         top: 5%;
+         background-color: aquamarine;
+         &-detail{
+             display: flex;
+         }
+         &-detail{
+             margin: 20px;
+             &__img{
+                 padding-right: 20px;
+             }
+         }
+     }
+    }
+
+}
