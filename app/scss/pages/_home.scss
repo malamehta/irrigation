@@ -86,8 +86,8 @@
             letter-spacing: -6px;
             margin: 10px 0;
             font-family: sans-serif;
-            // background-image: url(#{$image-path}/hero-banner.jpg);
-            background-image: url(../../images/hero-banner.png);
+            background-image: url(#{$image-path}/hero-banner.png);
+            // background-image: url(../../images/hero-banner.png);
             background-size: cover;
             background-position: center;
             -webkit-background-clip: text;
