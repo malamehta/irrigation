@@ -334,45 +334,43 @@ header .nav-bar .navbar-menu__lower .last-border {
 
 .aboutus {
   background-color: #3F3531;
-  height: 521px;
   position: relative;
 }
-.aboutus-content__nature-img {
+.aboutus__content {
+  display: flex;
   position: absolute;
   top: 92px;
+  left: 85px;
 }
-.aboutus-content__circle-img {
+.aboutus__content-image {
+  position: relative;
+}
+.aboutus__content-image__playbtn {
   position: absolute;
-  top: 233px;
-  left: 350px;
+  top: 40%;
+  left: 40%;
 }
-.aboutus-content__icon-img {
-  position: absolute;
-  top: 255px;
-  left: 377px;
+.aboutus__content-description {
+  margin-left: 90px;
 }
-.aboutus-content__text {
-  width: 395px;
-  position: absolute;
-  right: 150px;
-  top: 92px;
-}
-.aboutus-content__text-title {
+.aboutus__content-description__title {
   font-size: 36px;
+  color: #FFFFFF;
   font-family: "Lato", sans-serif;
   font-weight: 900;
-  color: #FFFFFF;
+  margin-bottom: 14px;
 }
-.aboutus-content__text-para {
+.aboutus__content-description__paragraph {
   font-size: 16px;
-  font-family: "Lato", sans-serif;
   color: #FFFFFF;
-  margin: 10px 0 30px 0;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30px;
 }
-.aboutus-content__text-btn {
+.aboutus__content-description__btn {
   font-size: 22px;
   font-family: "Lato", sans-serif;
-  color: #FFFFFF;
+  color: white;
   background-color: #44AF72;
-  padding: 7px 15px;
+  padding: 10px 21px;
+  display: inline-block;
 }
