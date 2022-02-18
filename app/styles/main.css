@@ -135,11 +135,15 @@ header .nav-bar .navbar-menu__lower .last-border {
 }
 .footer-container .link-section__subscribe-input {
   width: 670px;
-  padding: 12px 0 12px 10px;
+  padding: 12px 0 12px 15px;
   border-radius: 50px;
-  opacity: 0.1;
+  background-color: #186a3b;
+  border: none;
   margin: 0 70px 20px 0;
   position: relative;
+}
+.footer-container .link-section__subscribe .link-section__subscribe-input::placeholder {
+  color: white;
 }
 .footer-container .link-section__subscribe-btn {
   font-size: 16px;
@@ -149,6 +153,7 @@ header .nav-bar .navbar-menu__lower .last-border {
   border-radius: 50px;
   position: absolute;
   left: 46%;
+  border: none;
 }
 .footer-container .link-section__links {
   display: flex;
