@@ -1,6 +1,6 @@
 .footer{
     // background-image: url(../../images/footer-bg.png);
-    background-image: url(#{$image-path}/footer-bg.png);
+    background-image: url(#{$image-path}/footer-bg.png) ;
     margin-top: 85px;
     height: 512px;
     &-container{
@@ -101,7 +101,7 @@
             &__copyright{
                 display: flex;
                 justify-content: space-between;
-                margin-top: 55px;
+                margin-top: 70px;
                 &-left{
                     width: 497px;
                     font-size: 12px;

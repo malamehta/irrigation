@@ -208,7 +208,7 @@ header .nav-bar .navbar-menu__lower .last-border {
 .footer-container .link-section__copyright {
   display: flex;
   justify-content: space-between;
-  margin-top: 55px;
+  margin-top: 70px;
 }
 .footer-container .link-section__copyright-left {
   width: 497px;
@@ -393,6 +393,7 @@ header .nav-bar .navbar-menu__lower .last-border {
 .aboutus {
   background-color: #3F3531;
   position: relative;
+  height: 521px;
 }
 .aboutus__content {
   display: flex;
