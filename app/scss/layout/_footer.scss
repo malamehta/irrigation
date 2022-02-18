@@ -1,103 +1,171 @@
 .footer{
-    position: relative;
     // background-image: url(../../images/footer-bg.png);
+    background-image: url(#{$image-path}/footer-bg.png);
     margin-top: 85px;
+    height: 512px;
     &-container{
-        position: absolute;
-        top: 130px;
-        left: 90px;
-        &__title{
-            font-size: 22px;
-            font-weight: 900;
-            font-family: $primary-font;
-            color: white;
-            margin-bottom: 5px;
-        }
-        &__input{
-            width: 665px;
-            padding: 13px 0px 8px 13px;
-            border-radius: 50px;
-            opacity: 0.1;
-        }
-        &__btn{
-            padding: 9px 15px;
-            border-radius: 50px;
-            position: absolute;
-            left: 78%;
-        }
-    }
-    
-    &-content{
         display: flex;
-        &__links{
-            display: flex;
-            margin-top: 20px;
-            &-aboutus{
-                color: white;
-                margin-right: 100px;
-                h2{
-                    font-size: 18px;
-                    margin-bottom: 13px;
-                }
-                li {
-                    margin-bottom: 7px;
-                }
-                a{
-                    font-size: 14px;
-                    color: white;
+        .link-section{
+            margin: 130px 20px 0 0;
+            &__subscribe{
+                &-text{
+                    font-size: 22px;
                     font-family: $primary-font;
-                    
+                    font-weight: 900;
+                    color: $white;
+                    margin-bottom: 15px;
+
+                }
+                &-input{
+                    width: 670px;
+                    padding: 12px 0 12px 10px;
+                    border-radius: 50px;
+                    opacity: 0.1;
+                    margin:0 70px 20px 0;
+                    position: relative;
+                   
+                }
+
+                &-btn{
+                    font-size: 16px;
+                    font-weight: 900;
+                    font-family: $primary-font;
+                    padding: 10px 25px;
+                    border-radius: 50px;
+                    position: absolute;
+                    left: 46%;
+
                 }
             }
-            &-important{
-                color: white;
-                margin-right: 100px;
-                h2{
-                    font-size: 18px;
-                    margin-bottom: 13px;
+            &__links{
+                display: flex;
+                
+                &-aboutus{
+                    margin-right: 110px;
+                    &__text{
+                        font-size: 18px;
+                        font-weight: 900;
+                        font-family: $primary-font;
+                        color: $white;
+                        margin-bottom: 15px;
+                    }
+                    li{
+                        margin-bottom: 10px;
+                        a{
+                            font-size: 14px;
+                            font-family: $primary-font;
+                            color: $white;
+                        }
+                    }
+
                 }
-                li {
-                    margin-bottom: 7px;
+                &-important{
+                    margin-right: 110px;
+                    &__text{
+                        font-size: 18px;
+                        font-weight: 900;
+                        font-family: $primary-font;
+                        color: $white;
+                        margin-bottom: 15px;
+
+                    }
+                    li{
+                        margin-bottom: 10px;
+                        a{
+                            font-size: 14px;
+                            font-family: $primary-font;
+                            color: $white;
+                        }
+                    }
+
                 }
-                a{
-                    font-size: 14px;
-                    color: white;
+                &-more{
+                    margin-top: 40px;
+                    li{
+                        margin-bottom: 10px;
+                        a{
+                            font-size: 14px;
+                            font-family: $primary-font;
+                            color: $white; 
+                        }
+                    }
+
+                }
+            }
+            &__copyright{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 55px;
+                &-left{
+                    width: 497px;
+                    font-size: 12px;
                     font-family: $primary-font;
-                    
+                    color: $white;
+                    font-weight: 900; 
+                }
+                &-right{
+                    width: 120px;
+                    text-align: right;
+                    font-size: 12px;
+                    font-family: $primary-font;
+                    color: $white;
+                    font-weight: 900; 
                 }
 
             }
-            &-more{
-                margin-right: 100px;
-                margin-top: 30px;
-                li {
-                    margin-bottom: 7px;
+        }
+        .contact-section{
+            width: 371px;
+            height: 375px;
+            background-color:$light-black;
+            margin-top: 110px;
+            &__content{
+                display: flex;
+                margin: 20px 20px 0 33px;
+                &-locationimg{
+                    margin-right: 15px;
+                    padding-top: 30px;
                 }
-                a{
-                    font-size: 14px;
-                    color: white;
+                &-img{
+                    margin-right: 15px;
+                    padding-top: 10px;
+                }
+                &-text{
+                    &__heading{
+                        a{
+                            font-size: 18px;
+                            font-family: $primary-font;
+                            color:$white;
+                            font-weight: 900;
+                        }
+                    }
+                    &__para{
+                        padding-bottom: 20px;
+                        a{
+                            font-size: 14px;
+                            font-family: $primary-font;
+                            color:$white;
+                        }
+                    }
+                }
+                &-followus{
+                    font-size: 18px;
+                    font-weight: 900;
                     font-family: $primary-font;
-                    
+                    color: $white;
+                    padding-right: 20px;
+                    border-right: 1px solid $white;
+                   
+                }
+                &-link{
+                    margin-left: 20px;
+                    color: $white;
                 }
             }
         }
-     &__contact{
-         color: white;
-         width: 350px;
-         position: absolute;
-         right:-65%;
-         top: 5%;
-         background-color: aquamarine;
-         &-detail{
-             display: flex;
-         }
-         &-detail{
-             margin: 20px;
-             &__img{
-                 padding-right: 20px;
-             }
-         }
-     }
     }
-
 }
+// input::placeholder{
+//     opacity: 1;
+//     color: white;
+// }
