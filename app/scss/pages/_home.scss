@@ -22,19 +22,19 @@
             font-size: 57px;
             font-weight: 900;
             padding: 0 20px;
-            color: $white;
+            color: $white-color;
         }
         &-subtitle{
             background-color: $dark-green-color;
             font-family:$primary-font;
-            color: $white;
+            color: $white-color;
             font-size: 35px;
             padding: 12px 20px;
             font-weight: 900;
             margin-top: 5px;
         }
         &-btn{
-            background-color: $white;
+            background-color: $white-color;
             font-family:$primary-font;
             font-weight: 400px;
             font-size: 22px;
@@ -139,11 +139,14 @@
     
 }
 // ---------------------------------end of services section----------------------------------
-.aboutus{
+.about-us{
     background-color:$redish-brown;
     position: relative;
-    // height: 521px;
-    &__content{
+    margin-bottom: 92px;
+    &_bg-img{
+        display: block;
+    }
+    &_content{
         display: flex;
         position: absolute;
         top: 92px;
@@ -161,24 +164,29 @@
             margin-left: 90px;
             &__title{
                 font-size: 36px;
-                color: $white;
+                color: $white-color;
                 font-family: $primary-font;
                 font-weight: 900;
                 margin-bottom: 14px;
             }
             &__paragraph{
                 font-size: 16px;
-                color: $white;
+                color: $white-color;
                 font-family: $primary-font;
                 margin-bottom: 30px;
             }
             &__btn{
                 font-size: 22px;
                 font-family: $primary-font;
-                color: white;
+                color:$white-color;
                 background-color: $lightest-green-color;
                 padding: 10px 21px;
                 display: inline-block;
+                
+            }
+            &__btn:hover{
+                color:$lightest-green-color ;
+                background-color: $white-color;
             }
         }
 

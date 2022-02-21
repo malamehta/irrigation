@@ -9,7 +9,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="images/favicon.png">
 </head>
 
@@ -125,16 +125,16 @@
         </section>
         <!-- ---------------------------------------end of services section---------------------------------- -->
         <!-- ---------------start of about us section-------------- -->
-        <section class="aboutus">
-            <img src="images/about-bg.png" alt="">
-            <div class="aboutus__content container">
-                <div class="aboutus__content-image">
+        <section class="about-us">
+            <img src="images/about-bg.png" alt="" class="about-us_bg-img">
+            <div class="about-us_content container">
+                <div class="about-us_content-image">
                     <img src="images/video.png" alt="">
-                    <a href="#" class="aboutus__content-image__playbtn"><img src="images/playbutton.png" alt=""></a>
+                    <a href="#" class="about-us_content-image__playbtn"><img src="images/playbutton.png" alt=""></a>
                 </div>
-                <div class="aboutus__content-description">
-                    <h2 class="aboutus__content-description__title">About VIDC </h2>
-                    <p class="aboutus__content-description__paragraph">Lorem ipsum dolor sit amet consec
+                <div class="about-us_content-description">
+                    <h2 class="about-us_content-description__title">About VIDC </h2>
+                    <p class="about-us_content-description__paragraph">Lorem ipsum dolor sit amet consec
                         tetur, adipisicing elit. Qui, voluptatibus animi fuga deleniti placeat consequ
                         atur officiis possimus nisi ab voluptate eaque odLorem ipsum dolor sit amet consec
                         tetur, adipisicing elit. voluptas reprehenderit corrupti rem ipsam soluta. Eius eum deleniti
@@ -145,7 +145,7 @@
                         atur officiis possimus nisi ab voluptate eaque odio dicta, co
                         rrupti nobis tempore dolores inventore. Facilis, aspernatur!
                     </p>
-                    <a href="#" class="aboutus__content-description__btn">KNOW MORE</a>
+                    <a href="#" class="about-us_content-description__btn">KNOW MORE</a>
 
                 </div>
 
@@ -155,96 +155,91 @@
     <!-- -----------------------end of aboutus --------------------- -->
     <!-- ------------------------------footer---------------------------- -->
     <footer class="footer">
-        <div class="footer-container container">
-            <div class="link-section">
-                <div class="link-section__subscribe">
-                    <h2 class="link-section__subscribe-text">Subscribe to our Newsletters</h2>
-                    <input type="text" placeholder="Enter Email Id" class="link-section__subscribe-input">
-                    <button class="link-section__subscribe-btn">SUBSCRIBE NOW</button>
+        <div class="container">
+            <div class="footer-left">
+                <div class="footer-left_subscribe">
+                    <label class="footer-left_subscribe-label">Subscribe to our Newsletters</label>
+                    <input type="text" placeholder="Enter Email Id" class="footer-left_subscribe-input">
+                    <button class="footer-left_subscribe-btn">SUBSCRIBE NOW</button>
                 </div>
 
-                <div class="link-section__links">
-                    <ul class="link-section__links-aboutus">
-                        <h3 class="link-section__links-aboutus__text">ABOUT US</h3>
+                <div class="link-section">
+                    <ul class="link-section_links">
+                        <h3 class="link-section_links-title">ABOUT US</h3>
                         <li><a href="#">Establishment</a></li>
                         <li><a href="#">Our mission</a></li>
                         <li><a href="#">Our vision</a></li>
                         <li><a href="#">Members</a></li>
                     </ul>
 
-                    <ul class="link-section__links-important">
-                        <h3 class="link-section__links-important__text">Important links</h3>
+                    <ul class="link-section_links">
+                        <h3 class="link-section_links-title">Important links</h3>
                         <li><a href="#">Annual Reports</a></li>
                         <li><a href="#">Circulars</a></li>
                         <li><a href="#">Governing councils</a></li>
                         <li><a href="#">Govering Councils Decisions</a></li>
                     </ul>
 
-                    <ul class="link-section__links-more">
+                    <ul class="link-section_links disclouser-colum">
                         <li><a href="#">Disclousers</a></li>
                         <li><a href="#">Disclaimer</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Help</a></li>
                     </ul>
                 </div>
-                <div class="link-section__copyright">
-                    <p class="link-section__copyright-left">This is the official website of Vidarbha Irrigation
+                <div class="footer-copyright">
+                    <p class="footer-copyright_left">This is the official website of Vidarbha Irrigation
                         Development Corporation
                         © Copyright 2019. All rights reserved</p>
-                    <p class="link-section__copyright-right">Powered by Webworks Pvt Ltd</p>
+                    <p class="footer-copyright_right">Powered by Webworks Pvt Ltd</p>
 
                 </div>
             </div>
-            <div class="contact-section">
-                <div class="contact-section__content">
-                    <div class="contact-section__content-locationimg ">
-                        <img src="images/location.png" alt="">
-                    </div>
-                    <div class="contact-section__content-text">
-                        <h2 class="contact-section__content-text__heading"><a href="">Contact Us</a></h2>
-                        <p class="contact-section__content-text__para"><a href="">Near Old Secretary Building, Sin
-                                chan Sewa Bhavan, Civil Lines, Nagpur, Maharashtra 440001</a></p>
-                        <hr>
+            <div class="footer-right">
+                <div class="footer-right_contact">
+                    <img src="images/location.png" alt="" class="footer-right_contact-img">
+                    <div class="footer-right_contact-content">
+                        <h4 class="footer-right_contact-title">Contact Us</h4>
+                        <a href="" class="footer-right_contact-link">Near Old Secretary Building, Sin
+                            chan Sewa Bhavan, Civil Lines, Nagpur, Maharashtra 440001</a>
+                            <hr class="footer-right_contact-line" >
                     </div>
                 </div>
 
-                <div class="contact-section__content">
-                    <div class="contact-section__content-img" >
-                    <img src="images/phone.png" alt="">
-                    </div>
-                    <div class="contact-section__content-text" >
-                        <h2 class="contact-section__content-text__heading"><a href="">Call Us@</a></h2>
-                        <p class="contact-section__content-text__para"><a href="">766867858585</a></p>
-                        <hr width="235px">
+                <div class="footer-right_contact">
+                    <img src="images/phone.png" alt="" class="footer-right_contact-img">
+                    <div class="footer-right_contact-content">
+                        <h4 class="footer-right_contact-title">Call Us@</h4>
+                        <a href="tel:07122560374" class="footer-right_contact-link">07122560374</a>
+                        <hr class="footer-right_contact-line">
                     </div>
                 </div>
 
-                <div class="contact-section__content">
-                    <div class="contact-section__content-img" >
-                     <img src="images/msg.png" alt="">
+                <div class="footer-right_contact">
+                    <img src="images/msg.png" alt="" class="footer-right_contact-img">
+                    <div class="footer-right_contact-content">
+                        <h4 class="footer-right_contact-title">Email Us</h4>
+                        <a href="" class="footer-right_contact-link">Help@vidc.in</a>
+                        
                     </div>
-                    <div class="contact-section__content-text" >
-                        <h2 class="contact-section__content-text__heading"><a href="">Email Us</a></h2>
-                        <p class="contact-section__content-text__para"><a href="">Help@vidc.in</a></p>
-                    </div>
-                    
+
                 </div>
-                
-                <div class="contact-section__content">
-                    <h2 class="contact-section__content-followus">Follow Us</h2>
-                    <a href="" class="contact-section__content-link"><i class="fa fa-facebook"></i></a>
-                    <a href="" class="contact-section__content-link"><i class="fa fa-twitter"></i></a>
-                    <a href="" class="contact-section__content-link"><i class="fa fa-telegram"></i></a>
-                    <a href="" class="contact-section__content-link"><i class="fa fa-skype"></i></a>
-                 </div>
-                
-                       
-                    
+
+                <div class="footer_follow-us">
+                    <h4 class="footer_follow-us_title">Follow Us</h4>
+                    <a href="" class="footer_follow-us_link" ><i class="fa fa-facebook"></i></a>
+                    <a href="" class="footer_follow-us_link" ><i class="fa fa-twitter"></i></a>
+                    <a href="" class="footer_follow-us_link" ><i class="fa fa-telegram"></i></a>
+                    <a href="" class="footer_follow-us_link" ><i class="fa fa-skype"></i></a>
                 </div>
-                    
-                </div>
-                
+
+
+
             </div>
+
+        </div>
+
+        </div>
 
         </div>
     </footer>
