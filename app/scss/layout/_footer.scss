@@ -7,7 +7,7 @@
     }
     &-left{
         padding: 130px 26px 0 0;
-        &_subscribe{
+        &__subscribe{
             position: relative;
             &-label{
                 display: block;
@@ -48,7 +48,7 @@
         .link-section{
             display: flex;
             margin-bottom: 70px;
-            &_links{
+            &__links{
                 margin-right: 90px;
                 &-title{
                     font-size: 18px;
@@ -82,14 +82,14 @@
     &-copyright{
             display: flex;
             justify-content: space-between;
-            &_left{
+            &__left{
                 width: 400px;
                 font-size: 12px;
                 font-family: $primary-font;
                 color: $white-color;
                 font-weight: 900; 
                  }
-            &_right{
+            &__right{
                 width: 120px;
                 text-align: right;
                 font-size: 12px;
@@ -102,7 +102,7 @@
          background-color:$light-black ;
          margin-top: 110px;
          padding: 30px;
-         &_contact{
+         &__contact{
              display: flex;
              &-line{
                  width: 245px;
@@ -128,9 +128,9 @@
          }
 
          }   
-   &_follow-us{
+   &__follow-us{
        padding-top: 36px;
-       &_title{
+       &__title{
            font-size: 18px;
            color: $white-color;
            font-family: $primary-font;
